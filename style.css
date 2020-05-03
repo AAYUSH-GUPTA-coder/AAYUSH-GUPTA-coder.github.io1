@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.head{
+    width: 100vw;
+    height: 25vh;
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+    color: white;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+h1{
+    color: white;
+    margin: 5vmin;
+    margin-bottom: auto;
+} 
+
+.breeds{
+    width: 125px;
+    height: 25px;
+    margin: 5vmin;
+    margin-bottom: auto;
+} 
+
+/* .container{
+    float: left;
+    overflow: hidden;
+} */
+img{
+    display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+
+}
+
+
+@keyframes spin {
+    to {
+    transform: rotateZ(360deg);
+    }
+}
+.spinner {
+    text-align: center;
+    margin-top: 25vmin;
+    animation: spin 3s linear infinite;
+    font-size: 60px;
+    display: none;
+}
+
+.dog-image{
+    display: none;
+}
+
+.show{
+    display:block;
+}
+
+

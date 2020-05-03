@@ -1,0 +1,1 @@
+This is a simple web page,which give you image of breed of dog which you choose. API from dog.ceo. rest of the things is pretty standard.  
